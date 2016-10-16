@@ -1,6 +1,10 @@
 require_relative '../models/address_book'
 
 class MenuController
+   # handles user input
+   # lists the options
+   # executes code when an option is chosen
+
    attr_reader :address_book
 
    def initialize

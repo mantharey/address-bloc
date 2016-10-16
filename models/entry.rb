@@ -1,4 +1,6 @@
 class Entry
+   # The responsibility of the Entry model is to wrap around and manage the specific 
+   # attributes of an entry
    attr_accessor :name, :phone_number, :email
 
    def initialize(name, phone_number, email)
